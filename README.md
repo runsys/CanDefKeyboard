@@ -18,6 +18,12 @@ virtual keybord + virtual mouse
 //！！！1.8.1 无法完成测试！微软安卓Windows远程桌面没有按下消息，实现不了按下显示当前字符；
 //1.9.0 添加显示面板热键Ctrl+Alt+8,显示隐藏开关热键Ctrl+Alt+9;
 //1.9.0 添加程序AutoKillTabTip以系统权限结束TabTip程序,调用psexec -i -d -s exe提权运行;
-//2.0.0 20250407-20250408添加键盘隐藏快捷键Shift+Alt+H;添加键盘退出快捷键Shift+Alt+Q;添加虚拟鼠标功能:Alt+方向键 移动鼠标;Shift+Alt+方向键 45移动鼠标;Ctrl+Alt+方向键 鼠标拖动;Alt+Del 左键单击,End 中键单击,PageDown 右键键单击;Alt+Ins 左键双击,Home 中键双击,PageUp 右键双击;Shift+Alt+Del 左键按下,End 中键按下,PageDown 右键按下;Shift+Alt+Ins 左键松开,Home 中键松开,PageUp 右键松开;Alt+Z 一格大小10点,X 一格大小20点,C 一格大小40点;Alt+Back滚轮上滚(Scroll up),Slash滚轮下滚(scroll down),cTRL+AlthOME滚轮上滚(Scroll up),\r\neND滚轮下滚(scroll down);
-
+//2.0.1 20250407-20250408添加键盘隐藏快捷键Shift+Alt+H;添加键盘退出快捷键Shift+Alt+Q;添加虚拟鼠标功能:Alt+方向键 移动鼠标;Shift+Alt+方向键 45移动鼠标;Ctrl+Alt+方向键 鼠标拖动;Alt+Del 左键单击,End 中键单击,PageDown 右键键单击;Alt+Ins 左键双击,Home 中键双击,PageUp 右键双击;Shift+Alt+Del 左键按下,End 中键按下,PageDown 右键按下;Shift+Alt+Ins 左键松开,Home 中键松开,PageUp 右键松开;Alt+Z 一格大小10点,X 一格大小20点,C 一格大小40点;Alt+Back滚轮上滚(Scroll up),Slash滚轮下滚(scroll down),cTRL+AlthOME滚轮上滚(Scroll up),\r\neND滚轮下滚(scroll down);
+//2.0.2 20250408添加win+ins延迟左键双击,del延迟左键单击,pageup延迟右键双击,pagedown延迟右键单击;win+c开启关闭虚拟键盘;
+//2.1.0 20250415添加alt+shift+方向键2倍数;alt+'<','>'慢速左右移动;':','/'慢速上下移动;  alt+'+',']','\',BACK, 左上,左下,右下,右上2倍数移动;
+//2.2.0 ALT+1,2,3,4移动步长2,13,26,39;去除ALT+Z,X,C;ALY+'+' scroll  up, ']' scroll down;Alt+Ctrl+Back Fast scroll up, '|' fast scroll down;
+//2.3.0 ALT+句号 替换剪切板文本/到\, / 替换\为/
+//2.4.0 ALT0-9= conf文件自定义粘贴
+//2.4.5 20250522T120332 fix ALT5-9,0= conf文件自定义粘贴
+//2.5.0 20250526T091923 Alt5-9,0 添加{cd}替换为当前剪切板内容,修改显示隐藏窗口Win+`;
 
